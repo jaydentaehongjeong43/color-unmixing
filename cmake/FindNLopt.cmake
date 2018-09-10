@@ -9,7 +9,7 @@
 
 find_package(PkgConfig REQUIRED)
 
-pkg_check_modules(PC_NLopt REQUIRED NLopt)
+pkg_check_modules(PC_NLopt REQUIRED nlopt)
 
 set(NLopt_DEFINITIONS ${PC_NLopt_CFLAGS_OTHER})
 

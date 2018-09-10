@@ -6,7 +6,7 @@ find_package(NLopt REQUIRED)
 
 include_directories(${EIGEN3_INCLUDE_DIR})
 include_directories(${Qt5Gui_INCLUDE_DIRS})
-include_directories(${NLopt_INCLUDE_DIRS})
+include_directories(${nlopt_INCLUDE_DIRS})
 
 file(GLOB files *.cpp *.h)
 add_library(ColorUnmixing STATIC ${files})
